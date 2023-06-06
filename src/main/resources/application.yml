@@ -1,0 +1,18 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: WebMagic
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&useSSL=false
+    username: root
+    password: root
+  data:
+    web:
+      pageable:
+        default-page-size: 20000
+        max-page-size: 20000
