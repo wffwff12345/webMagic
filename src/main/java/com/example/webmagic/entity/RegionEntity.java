@@ -25,7 +25,7 @@ public class RegionEntity {
 
     private String code;
 
-    private String parent_code;
+    private String parentCode;
 
     private Date createTime;
 
